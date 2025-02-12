@@ -1,0 +1,1 @@
+export const AUTH_COOKLE = "Pro-Track-session"

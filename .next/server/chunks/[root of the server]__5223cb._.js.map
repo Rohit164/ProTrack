@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 47, "column": 0}, "map": {"version":3,"sources":["file://D%3A/ProTrack/pro-track/src/app/api/%5B%5B...route%5D%5D/route.ts"],"sourcesContent":["import { Hono } from 'hono';\r\nimport { handle } from 'hono/vercel';\r\n\r\nconst app = new Hono().basePath(\"/api\");\r\n\r\napp.get(\"/hello\", (c) => {\r\n    return c.json({ hello: \"world\" });\r\n});\r\n\r\napp.get(\"/project/:projectId\", (c) => {\r\n    const {projectId} = c.req.param();\r\n\r\n    return c.json({ project: projectId });\r\n});\r\n\r\nexport const GET = handle(app);\r\n"],"names":[],"mappings":";;;AAAA;AACA;AADA;AACA;;;AAEA,MAAM,MAAM,IAAI,sIAAA,CAAA,OAAI,GAAG,QAAQ,CAAC;AAEhC,IAAI,GAAG,CAAC,UAAU,CAAC;IACf,OAAO,EAAE,IAAI,CAAC;QAAE,OAAO;IAAQ;AACnC;AAEA,IAAI,GAAG,CAAC,uBAAuB,CAAC;IAC5B,MAAM,EAAC,SAAS,EAAC,GAAG,EAAE,GAAG,CAAC,KAAK;IAE/B,OAAO,EAAE,IAAI,CAAC;QAAE,SAAS;IAAU;AACvC;AAEO,MAAM,MAAM,CAAA,GAAA,8JAAA,CAAA,SAAM,AAAD,EAAE"}},
+    {"offset": {"line": 69, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
