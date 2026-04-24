@@ -1,4 +1,4 @@
-export function useFetch() {
+export default function useFetch() {
   return {
     data: null,
     loading: false,
