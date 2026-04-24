@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -21,10 +22,15 @@
 *.pem
 
 # debug
+=======
+# Node modules
+node_modules/
+>>>>>>> e36940100690079dcaf2cf6f45b765cef18846f3
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+<<<<<<< HEAD
 # local env files
 .env*.local
 .env
@@ -35,3 +41,32 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+=======
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+logs/*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Build files
+dist/
+out/
+coverage/
+>>>>>>> e36940100690079dcaf2cf6f45b765cef18846f3

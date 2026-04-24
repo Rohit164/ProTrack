@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 47, "column": 0}, "map": {"version":3,"sources":["file://D%3A/ProTrack/pro-track/src/app/api/users/%5BuserId%5D/route.ts"],"sourcesContent":["export function GET(\r\n    req: Request,\r\n    { params }: { params: {userId: string}}\r\n){\r\n    return Response.json({ userId: params.userId });\r\n}"],"names":[],"mappings":";;;AAAO,SAAS,IACZ,GAAY,EACZ,EAAE,MAAM,EAA+B;IAEvC,OAAO,SAAS,IAAI,CAAC;QAAE,QAAQ,OAAO,MAAM;IAAC;AACjD"}},
+    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

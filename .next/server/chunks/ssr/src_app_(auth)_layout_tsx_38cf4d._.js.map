@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/ProTrack/pro-track/src/app/%28auth%29/layout.tsx"],"sourcesContent":["interface AuthLayoutProps {\r\n    children : React.ReactNode;\r\n}\r\n\r\nconst AuthLayout = ({children}: AuthLayoutProps) => {\r\n    return (\r\n        <div>\r\n            {children}\r\n        </div>\r\n    );\r\n}\r\n\r\nexport default AuthLayout;"],"names":[],"mappings":";;;;;AAIA,MAAM,aAAa,CAAC,EAAC,QAAQ,EAAkB;IAC3C,qBACI,8OAAC;kBACI;;;;;;AAGb;uCAEe"}},
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

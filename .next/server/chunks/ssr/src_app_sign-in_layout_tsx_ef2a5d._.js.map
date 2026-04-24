@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/ProTrack/pro-track/src/app/sign-in/layout.tsx"],"sourcesContent":["interface SignInLayoutProps {\r\n    children: React.ReactNode;\r\n}\r\n\r\nconst SignInLayout = ({ children }: SignInLayoutProps) => {\r\n    return (\r\n        <div className=\"flex flex-col\">\r\n            <nav className=\"bg-red-500 h-10\">\r\n                <p>\r\n                    Navbar\r\n                </p>\r\n            </nav>\r\n\r\n            {children}\r\n        </div>\r\n    );\r\n}\r\n\r\nexport default SignInLayout;\r\n"],"names":[],"mappings":";;;;;AAIA,MAAM,eAAe,CAAC,EAAE,QAAQ,EAAqB;IACjD,qBACI,8OAAC;QAAI,WAAU;;0BACX,8OAAC;gBAAI,WAAU;0BACX,cAAA,8OAAC;8BAAE;;;;;;;;;;;YAKN;;;;;;;AAGb;uCAEe"}},
+    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
