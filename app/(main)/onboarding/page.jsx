@@ -29,7 +29,7 @@ export default async function OnboardingPage() {
           </div>
           
           <div className="p-4 bg-green-50 rounded-lg">
-            <h3 className="font-semibold text-green-900 mb-2">✅ What's Next</h3>
+            <h3 className="font-semibold text-green-900 mb-2">✅ What&apos;s Next</h3>
             <ul className="text-green-700 text-sm space-y-1">
               <li>• Create your first project</li>
               <li>• Set up your team</li>
