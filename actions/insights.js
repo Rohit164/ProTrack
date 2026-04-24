@@ -1,18 +1,17 @@
 "use server";
 
-// Stub functions to allow build to complete
-export async function getIssuesByStatus(projectId) {
+export async function getIssuesByStatus() {
   return [];
 }
 
-export async function getIssuesByPriority(projectId) {
+export async function getIssuesByPriority() {
   return [];
 }
 
-export async function getSprintProgress(projectId) {
+export async function getSprintProgress() {
   return [];
 }
 
-export async function getIssuesTrend(projectId) {
+export async function getIssuesTrend() {
   return [];
 }
