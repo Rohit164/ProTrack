@@ -11,7 +11,8 @@ export async function getOrganization(slug) {
     // Find user in DB, create if not exists
     let user = await db.user.findUnique({ where: { clerkUserId: userId } });
     if (!user) {
-      const clerkUser = await clerkClient.users.getUser(userId);
+      const client = await clerkClient();
+      const clerkUser = await client.users.getUser(userId);
       user = await db.user.create({
         data: {
           clerkUserId: userId,
@@ -28,7 +29,8 @@ export async function getOrganization(slug) {
     });
 
     if (!organization && orgId) {
-      const clerkOrg = await clerkClient.organizations.getOrganization({ organizationId: orgId });
+      const client = await clerkClient();
+      const clerkOrg = await client.organizations.getOrganization({ organizationId: orgId });
       organization = await db.organization.create({
         data: {
           clerkOrgId: orgId,
