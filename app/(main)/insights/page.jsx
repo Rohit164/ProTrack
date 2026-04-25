@@ -21,6 +21,7 @@ import {
   AreaChart
 } from "recharts";
 // import { getIssuesByStatus, getIssuesByPriority, getSprintProgress, getIssuesTrend } from "@/actions/insights";
+import { getIssuesByStatus, getIssuesByPriority, getSprintProgress, getIssuesTrend } from "@/actions/insights";
 import { Skeleton } from "@/components/ui/skeleton";
 
 export default function InsightsPage() {
